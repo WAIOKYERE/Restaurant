@@ -1,0 +1,33 @@
+/* these are the square grid styles */
+.squares-wrapper{
+   display: flex;
+   justify-content: center;
+}
+.squares-wrapper .squares{
+   width: 1000px;
+   margin-bottom: 100px;
+   
+}
+.squares-wrapper .squares .square{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   object-fit: cover;
+}
+ .square .img-wrapper{
+   width:fit-content;
+   border:1px solid rgb(192, 233, 9);
+}
+
+.squares-wrapper .squares .square .square-text-wrapper{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   padding: 42px 50px;  
+}
+.squares-wrapper .squares .square .square-text-wrapper h1{
+   color: #cea135;  
+   width: 100%;
+  
+   text-align: center;
+
+}
