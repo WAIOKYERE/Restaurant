@@ -1,0 +1,117 @@
+.footer {
+
+    background-color: #11122b;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    height: 400px;
+    margin-top: -4px;
+    width: 100%;
+}
+
+
+.footer .footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer .footer-content .footer-contact{
+    letter-spacing: 2px;
+    font-size: 0.8em;
+    color: #e9e4da;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.footer .footer-content .footer-contact .phone{
+    margin-right: 20px;
+   
+}
+
+
+.footer .footer-content .footerlogo{
+    filter: brightness(80%);
+    opacity:0.5;
+    filter: brightness(150%);
+}
+
+.footer .footer-content .sitemap{
+    display: flex;
+    width: 100%;
+    
+}
+.footer .footer-content .sitemap .linkswrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px 10px;
+    padding: 0px 10px;
+    width: 400px;
+    
+}
+
+.footer .footer-content .sitemap .linkswrapper a{
+    text-decoration: none;
+    color: rgb(204, 186, 186);
+    padding-right: 20px; 
+   
+}
+.footer .footer-content .sitemap .linkswrapper .nav_link {
+        width:50px;
+        text-align: center;
+    }
+
+.footer .footer-content .sitemap .linkswrapper a:hover{
+    color:  #cea135;
+    letter-spacing: 2px;
+}
+.footer .footer-content .footer-social{
+    width:max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    transition:0.5s;
+}
+.footer .footer-content .footer-social .facebook {
+    margin: 30px;
+}
+.footer .footer-content .footer-social .instagram {
+    margin: 30px;
+}
+.footer .footer-content .footer-social .tiktok {
+    margin: 30px;
+}
+.footer .footer-content .footer-social .facebook:hover{
+    background-color:  #cea135;
+    width: 50px;
+    color: black;
+    text-align: center;  
+    border-radius: 5px;
+
+}
+.footer .footer-content .footer-social .instagram:hover{
+    background-color:  #cea135;
+    width: 50px;
+    color: black;
+    text-align: center;  
+    border-radius: 5px;
+}
+.footer .footer-content .footer-social .tiktok:hover{
+    background-color:  #cea135;
+    width: 50px;
+    color: black;
+    text-align: center;  
+    border-radius: 5px;
+}
+.footer .copyright{
+    margin: 10px;
+    font-size: 0.7m;
+    color: #858585;
+}
