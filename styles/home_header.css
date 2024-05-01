@@ -16,7 +16,7 @@
     The above styling is for all sides of the container.
      It goes clockwise, thus the first is the padding 
      top value, then right, followed by bottom the finally left. */
-     font-family: font-family: 'Roboto', sans-serif;
+     font-family: 'Roboto', sans-serif;
 
 
 }
@@ -25,16 +25,18 @@
     align-items: center;
     font-family:'Ubuntu', sans-serif;
 }
+
 .icon i {    
     font-size: 1em;
     padding-right: 3px;
 }
+
 .left_column .contact-hours{
     margin-left: 15PX;
     display: grid;
     grid-template-columns: 1fr ;
     gap: 10px;
-    font-family: font-family: 'Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;
 }
 .nav_wrapper .center-column{
     display: grid;
