@@ -52,6 +52,12 @@
                     </div>
 
                 </div>
+
+                <div class="menuToggle" id="menuToggle">
+                    <span class="menuBar"></span>              
+                    <span class="menuBar"></span>              
+                    <span class="menuBar"></span>              
+                </div>
             </div>
         </div>
     </div>
@@ -156,5 +162,13 @@
 
     </div>
 </div>
+
+<script>
+    // Add click event to toggle open/close state
+    const menuToggle = document.getElementById('menuToggle');
+    menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('open');
+    });
+</script>
 </body>
 </html>

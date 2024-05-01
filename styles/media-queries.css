@@ -1,3 +1,32 @@
+@media (max-width:768px) {
+    .page-container{
+        width: 90%;
+        margin: auto;
+    
+       }
+
+    
+       .page-container .content-wrapper{
+        width: 80%;
+       }
+     
+       .page-container .content-wrapper #cooking{
+        width: 350px;
+        margin: 20px 40px 25px 0px;
+        float: left;
+        border: 1px solid #cea135;
+     
+       }
+     .page-container .content-wrapper p{
+        letter-spacing: 1px;
+        line-height: 30px;
+     
+     }
+     
+
+}
+
+
 @media (max-width:615px) {
 .nav_wrapper {
     flex-direction: column;
@@ -105,4 +134,13 @@ order: 2;
 .form textarea{
     padding: 1.5rem 0rem;
 }
+}
+
+@media (max-width:430px) {
+
+    .skewed-header {
+      height: 400px;
+      background-color: rgba(201, 25, 63, 0.836);
+     }
+
 }

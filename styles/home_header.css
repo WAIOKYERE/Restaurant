@@ -3,7 +3,6 @@
     height: 180px;
     background-color: #11122b;
     color: #cbcbcb;
-    /* This is making us a flexbox container */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,12 +10,7 @@
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom:60px ;
-    /* padding: 60px 100px 60px 100px;
-    (another way to declear the padding values above)
-    The above styling is for all sides of the container.
-     It goes clockwise, thus the first is the padding 
-     top value, then right, followed by bottom the finally left. */
-     font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 
 
 }
@@ -38,18 +32,21 @@
     gap: 10px;
     font-family:'Roboto', sans-serif;
 }
+
 .nav_wrapper .center-column{
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 12px;
     width: 500px;
 }
+
  .nav_wrapper  .center-column .logo{
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
  }
+ 
  .nav_wrapper  .center-column .links-wrapper {
     display: flex;
     justify-content:space-evenly;
