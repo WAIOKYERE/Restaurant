@@ -31,3 +31,23 @@
    text-align: center;
 
 }
+
+@media (max-width:768px) {
+  
+   .square .img-wrapper{
+     width:80%;
+     border:1px solid rgb(233, 9, 9);
+     margin: auto;
+  }
+  
+   .square .img-wrapper img{
+     width:100% !important;
+     height: 250px !important;
+  }
+  
+  .squares-wrapper .squares .square .square-text-wrapper{
+       padding: 10px;  
+  }
+
+
+}

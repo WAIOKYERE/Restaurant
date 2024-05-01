@@ -1,0 +1,76 @@
+ /* Page container style  */
+ .page-container{
+    display: flex;
+    justify-content: center;
+ 
+   }
+   .page-container .content-wrapper{
+    width: 1000px;
+   }
+ 
+   .page-container .content-wrapper #cooking{
+    width: 350px;
+    margin: 20px 40px 25px 0px;
+    float: left;
+    border: 1px solid #cea135;
+ 
+   }
+ .page-container .content-wrapper p{
+    letter-spacing: 1px;
+    line-height: 30px;
+ 
+ }
+
+ 
+ /* these are the square grid styles */
+.squares-wrapper{
+    display: flex;
+    justify-content: center;
+ }
+ .squares-wrapper .squares{
+    width: 1000px;
+    margin-bottom: 100px;
+    
+ }
+ .squares-wrapper .squares .square{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    object-fit: cover;
+ }
+  .square .img-wrapper{
+    width:auto;
+    border:1px solid rgb(192, 233, 9);
+ }
+ 
+ .squares-wrapper .squares .square .square-text-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 42px 50px;  
+ }
+ .squares-wrapper .squares .square .square-text-wrapper h1{
+    color: #cea135;  
+    width: 100%;
+   
+    text-align: center;
+ 
+ }
+
+
+ @media (max-width:768px) {
+  
+      .square .img-wrapper{
+        width:100%;
+        border:1px solid rgb(233, 9, 9);
+     }
+     
+      .square .img-wrapper img{
+        width:100% !important;
+     }
+     
+     .squares-wrapper .squares .square .square-text-wrapper{
+          padding: 0px;  
+     }
+
+
+}
