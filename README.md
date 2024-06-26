@@ -1,2 +1,2 @@
 # Restaurant
-This website that shows foods available and gives information about them.
+This website shows foods available and gives information about them.
